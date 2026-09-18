@@ -19,7 +19,7 @@ public class TestList {
 
   @BeforeEach
   public void setUp() throws Exception {
-    list = new LinkedList<Integer>();
+    list = new ArrayList<Integer>();
     // TODO Question: Also try with a LinkedList - does it make any difference?
   }
 
